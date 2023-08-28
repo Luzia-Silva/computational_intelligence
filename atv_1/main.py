@@ -1,12 +1,9 @@
 from collections import Counter
-import os 
 
 def Calibrate():
     number_cars = int(
         input("Insira a quantidade de carros que deseja no histórico:"))
     vpm = 0
-    total_value = 0
-    total_weight = 0
     informations_velocity = []
     if number_cars > 0:
         for cars_informations in range(number_cars):
@@ -18,7 +15,7 @@ def Calibrate():
                 input("Insira se houve acidente com 1 para SIM ou 0 para NÃO:"))
             if velocity > 10 and accident == 0:
                 informations_velocity.append(velocity) 
-        value_vpm = Counter(informations_velocity)
+        value_vpm = Counter(informations_velocity) # [10,10, 2] => [{10:2, 2:1}]
         vpm_sum = sum(value * count for value, count in value_vpm.items())
         total_values = len(informations_velocity)
         vpm = vpm_sum / total_values
@@ -36,7 +33,7 @@ def Velocity_car(vpm):
 
 
 print("\n \nDigite 1 para entrar em modo de Calibração, 2 para entrar em modo de execução e  3 para sair")
-while 1: 
+while True: 
     print("\n \nRadar em Execução")
     type_opc = int(input("Escolha o modo de operação:"))
     if type_opc == 1:
