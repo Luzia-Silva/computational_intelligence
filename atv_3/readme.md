@@ -1,5 +1,9 @@
 # Sistema Especialista Anxiety Detection
 
+
+## Ansiedade 
+- O Psicólogo Consultória (2021), afirma que a ansiedade é um estado onde prevalece a incerteza e a angústia, caracterizadas pelo sentimento de medo e insegurança. 
+
 ## O que é um Sistema Especialista (SE) ?
 
 - Desse modo, de acordo com TelefonicaTech (2022), um sistemas Especialistas (SE) podem ser considerados como um subconjunto da IA. Um Sistema Especialista é um sistema que utiliza o conhecimento humano capturado num computador para resolver problemas que normalmente seriam resolvidos por especialistas humanos.
@@ -7,7 +11,7 @@
 
 ## Diferença entre um IA x SE ?
 ![Alt text](assets/images/iaXse.png)
-
+<div style="text-align: center">Fonte em Acervo Lima (2023)</div>
 
 ## Referências
 
