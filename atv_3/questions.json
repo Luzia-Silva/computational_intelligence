@@ -1,0 +1,42 @@
+[
+  {
+    "asking": "Você tem pensamentos acelerados?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Você se sente ansioso todos os dias?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "O estresse também é um problema recorrente na sua vida?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Você se sente ansioso todos os dias?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Você se sente ansioso todos os dias?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Não conseguir vivenciar nenhum sentimento positivo?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Sentir tremores (ex. nas mãos)?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Tive dificuldade em respirar em alguns momentos (ex. respiração ofegante, falta de ar, sem ter feito nenhum esforço físico) *?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Sentimento de que não tinha valor como pessoa ?",
+    "id": "anxiety"
+  },
+  {
+    "asking": "Sentimento de medo sem motivo?",
+    "id": "anxiety"
+  }
+]
